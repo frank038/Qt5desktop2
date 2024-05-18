@@ -35,6 +35,7 @@ For thumbnailers (option):
 Features:
 
 Desktop:
+
 This program shows the content of the folder "Desktop". The name can be changed in the config file.
 
 To open the recycle bin, the command have to be written in the file trash_command.sh. Make sure to make this file executable. Must be executable also the files qt5desktop.py and qt5desktop.sh. Both can be used to launch this program. qt5desktop.sh is raccomanded.
@@ -48,7 +49,7 @@ Wallpaper: just put an image named wallpaper (jpg or png) in the main directory 
 Limitations: only one item at time can change its position on the desktop. The desktop files cannot be copied, they can only be created and deleted.
 
 Panel:
-- three layout: traditional; all element centered; menu - application launcher - taskbar: centered;
+- three layouts: traditional; all element centered; menu - application launcher - taskbar: centered;
 - application menu (can add or modify application entries; bookmarks; search functionality)
 - clock/calendar (can read an ics file; can launch an external program for adding/modifying events by double clicking in a day cell, or even event)
 - virtual desktops (if supported by the window manager)
