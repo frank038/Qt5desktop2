@@ -1,7 +1,7 @@
 # Qt5desktop2
 A desktop and panel all in one application. Free to use and modify.
 
-This is a single application that integrate a desktop and a panel. It's an union of my SimpleDesktop and Qt5simpledock programs.
+This is a single application that integrates a desktop and a panel. It's an union of my SimpleDesktop and Qt5simpledock programs (and has the same features).
 
 Personalizations in the config files, mainly:
 - cfg_qt5desktop.py
@@ -48,6 +48,7 @@ Wallpaper: just put an image named wallpaper (jpg or png) in the main directory 
 Limitations: only one item at time can change its position on the desktop. The desktop files cannot be copied, they can only be created and deleted.
 
 Panel:
+- three layout: traditional; all element centered; menu - application launcher - taskbar: centered;
 - application menu (can add or modify application entries; bookmarks; search functionality)
 - clock/calendar (can read an ics file; can launch an external program for adding/modifying events by double clicking in a day cell, or even event)
 - virtual desktops (if supported by the window manager)
