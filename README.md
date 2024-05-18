@@ -1,5 +1,5 @@
 # Qt5desktop2
-A desktop and panel all in one application. Free to use and modify.
+A desktop and panel all in one application for Xorg. Free to use and modify.
 
 This is a single application that integrates a desktop and a panel. It's an union of my SimpleDesktop and Qt5simpledock programs (and has the same features).
 
