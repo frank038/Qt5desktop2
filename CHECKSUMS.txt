@@ -1,0 +1,4 @@
+qt5desktop2_0.9.3.zip
+MD5SUM: 51c3ad43fa8b335ce55b1f4adcbd092e
+SHA256SUM: 5657b0f7971be4f725c5360a0bc72e6eac9d50183fb60a89c9b9e8c07ef4a64e
+
