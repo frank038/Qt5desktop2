@@ -3,6 +3,8 @@ A desktop and panel all in one application for Xorg. Free to use and modify.
 
 This is a single application that integrates a desktop and a panel. It's an union of my SimpleDesktop and Qt5simpledock programs (and has the same features).
 
+Added feature: can store and manage the notifications (with my program qt5notification, experimental version), if enabled: a gray icon will appear at the right of the bar, and just click on it to show a dialog; the disable button means 'do not disturb'. 
+
 Personalizations in the config files, mainly:
 - cfg_qt5desktop.py
 - cfg_dock.py
