@@ -69,5 +69,5 @@ Panel:
 - can play sounds when a window opens or closes
 - experimental, initial support for audio: the main volume can be changed; left mouse click to show a popup; central mouse click to toggle mute/unmute; if a microphone is enabled, an icon is shown (its name will be shown in the tooltip); these options must be enabled in the config file;
 - experimental support for battery
-- experimental support for webcam: check the status connected, or in use (the icon changes); filters for unwanted webcams
+- experimental support for webcams: check the status (only) connected, or in use (the icon changes depending on its status); filters for unwanted webcams to be checked
 - customizations in the cfg_dock file.
