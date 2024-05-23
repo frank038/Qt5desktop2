@@ -36,6 +36,7 @@ For thumbnailers (option):
 For webcam:
 - pyudev
 - lsof (command line program)
+- pyinotify
 
 Features:
 
