@@ -33,6 +33,9 @@ For thumbnailers (option):
 - pdftocairo
 - ffmpegthumbnailer
 
+For webcam:
+- pyudev
+- lsof (command line program)
 
 Features:
 
@@ -65,4 +68,6 @@ Panel:
 - closing and restarting this program by right mouse clicking
 - can play sounds when a window opens or closes
 - experimental, initial support for audio: the main volume can be changed; left mouse click to show a popup; central mouse click to toggle mute/unmute; if a microphone is enabled, an icon is shown (its name will be shown in the tooltip); these options must be enabled in the config file;
+- experimental support for battery
+- experimental support for webcam: check the status connected, or in use (the icon changes); filters for unwanted webcams
 - customizations in the cfg_dock file.
