@@ -50,20 +50,20 @@ To open the recycle bin, the command have to be written in the file trash_comman
 
 The recycle bin icon can change to reflect its state, empty or not empty.
 
-Can handle desktop files (programs, directories and files as link) [to be revisited]. Using desktop files for folders and files don't let user manage directly them. Moreover, more files and folders with the same name can coexist at the same time. Actually they can be created with my programs SimpleFM and qt5simplebar. Actually only programs. Accept files from my Qt5archiver program.
+Can handle desktop files (programs, directories and files as link) [to be revisited]. Using desktop files for folders and files don't let user manage directly them. Moreover, more files and folders with the same name can coexist at the same time. Actually they can be created with my programs SimpleFM and this one (from the menu). Accept files from my Qt5archiver program.
 
-Wallpaper: just put an image named wallpaper (jpg or png) in the main directory of this program; it can be changed while this program is been executing by an action in the menu.
+Wallpaper: just put an image named wallpaper (jpg or png) in the main directory of this program; it can be changed while this program is been executing by the action in the menu "Update wallpaper".
 
 Limitations: only one item at time can change its position on the desktop. The desktop files cannot be copied, they can only be created and deleted.
 
 Panel:
-- three layouts: traditional; all element centered; menu - application launcher - taskbar: centered;
+- three layouts: traditional; all elements centered; menu - application launcher - taskbar: centered
 - application menu (can add or modify application entries; bookmarks; search functionality; pin to bar)
 - clock/calendar (can read an ics file; can launch an external program for adding/modifying events by double clicking in a day cell, or even event)
 - virtual desktops (if supported by the window manager)
-- application launchers (using the contextual menu, applications can be pinned and unpinned - pinned from the menu, unpinned from the button launchers)
+- application launchers (using the contextual menu, applications can be pinned and unpinned - pinned from the menu, unpinned from the button launcher)
 - task list with icon support and application comment while hovering on it
-- four slots for periodical custom messagges (just modify the files in the script folder; they accept both plain text or rich text; see the sample files); can execute programs double clicking with the left mouse button or the middle mouse button.
+- four slots for periodical custom messagges (just modify the files in the script folder; they accept both plain text or rich text; see the sample files); can execute programs double clicking with the left mouse button or the middle mouse button them.
 - two slots for custom widgets in the dock, left and right
 - systemtray icons support
 - integrated clipboard (text and images)
