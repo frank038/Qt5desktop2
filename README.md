@@ -5,7 +5,7 @@ Download in the Release page.
 
 This is a single application that integrates a desktop and a panel. It's an union of my SimpleDesktop and Qt5simpledock programs (and has the same features).
 
-Added feature: can store and manage the notifications (with my program qt5notification, experimental version), if enabled: a gray icon will appear at the right of the bar, and just click on it to show a dialog; the disable button means 'do not disturb'. 
+Added feature: can store and manage the notifications (with my program qt5notification, experimental version), if enabled: an icon will appear at the right side of the bar, and just click on it to show a dialog; the disable button means 'do not disturb mode'. 
 
 Personalizations in the config files, mainly:
 - cfg_qt5desktop.py
@@ -58,17 +58,17 @@ Limitations: only one item at time can change its position on the desktop. The d
 
 Panel:
 - three layouts: traditional; all element centered; menu - application launcher - taskbar: centered;
-- application menu (can add or modify application entries; bookmarks; search functionality)
+- application menu (can add or modify application entries; bookmarks; search functionality; pin to bar)
 - clock/calendar (can read an ics file; can launch an external program for adding/modifying events by double clicking in a day cell, or even event)
 - virtual desktops (if supported by the window manager)
-- application launchers (using the contextual menu, applications can be pinned and unpinned - a valid desktop file is required; the file delete_me in the folder 'applications' needs to be deleted before using this program)
+- application launchers (using the contextual menu, applications can be pinned and unpinned - pinned from the menu, unpinned from the button launchers)
 - task list with icon support and application comment while hovering on it
 - four slots for periodical custom messagges (just modify the files in the script folder; they accept both plain text or rich text; see the sample files); can execute programs double clicking with the left mouse button or the middle mouse button.
 - two slots for custom widgets in the dock, left and right
 - systemtray icons support
 - integrated clipboard (text and images)
 - closing applications by right mouse clicking on its icon
-- closing and restarting this program by right mouse clicking
+- closing and restarting this program by right mouse clicking (for special purpose)
 - can play sounds when a window opens or closes
 - experimental, initial support for audio: the main volume can be changed; left mouse click to show a popup; central mouse click to toggle mute/unmute; if a microphone is enabled, an icon is shown (its name will be shown in the tooltip); these options must be enabled in the config file;
 - experimental support for battery
