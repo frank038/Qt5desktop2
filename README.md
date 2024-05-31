@@ -3,12 +3,13 @@ A desktop and panel all in one application for Xorg. Free to use and modify.
 
 Download in the Release page.
 
-This is a single application that integrates a desktop and a panel. It's an union of my SimpleDesktop and Qt5simpledock programs (and has the same features, plus others).
+This is a single application that integrates a desktop and a panel (which are obsolete now). It's an union of my SimpleDesktop and Qt5simpledock programs (and has the same features, plus others).
 
 Features added:
 - can store and manage the notifications (with my program qt5notification, experimental version), if enabled: an icon will appear at the right side of the bar; just click it to show a dialog; the disable button means 'do not disturb mode'; clickable links in the notification body as option to be enabled;
 - webcam indicator: an a little grayed out icon appears if a webcam is attached; the icon changes as soon as the webcam turns in a working state (and viceversa);
-- battery indicator: the icon shows approximately the remaining power; the tooltip show the percentage of the remaining power and its state.
+- battery indicator: the icon shows approximately the remaining power; the tooltip show the percentage of the remaining power and its state;
+- empty trashcan sound (to be enabled in the config file).
 
 Personalizations in the config files, mainly:
 - cfg_qt5desktop.py
