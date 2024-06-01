@@ -10,7 +10,7 @@ Features added:
 - webcam indicator: an a little grayed out icon appears if a webcam is attached; the icon changes as soon as the webcam turns in a working state (and viceversa);
 - battery indicator: the icon shows approximately the remaining power; the tooltip show the percentage of the remaining power and its state;
 - empty trashcan sound (to be enabled in the config file);
-- the scripts can be enabled/reloaded also after a modification in its parameters by using the context menu on the bar, using the right mouse button: Reload scripts (no needs to close and launch this program again).
+- the scripts can be enabled/disabled by using the context menu on the bar, using the right mouse button: Reload scripts (no needs to close and launch this program again); after a modification in their parameters, the scripts must be disabled and enabled again in the config file.
 
 Personalizations in the config files, mainly:
 - cfg_qt5desktop.py
